@@ -23,7 +23,7 @@ steps:
   - name: docker
     image: plugins/docker
     settings:
-      repo: cnych/devops-demo
+      repo: registry.cn-hangzhou.aliyuncs.com/jason_zheng/devops-demo
       use_cache: true
       username:
         from_secret: docker_username
